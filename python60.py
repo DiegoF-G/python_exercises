@@ -2,14 +2,14 @@ print('\033[1m10 PRIMEIROS TERMOS DE UMA PA (PROGRESSÃO ARITMÉTICA)\033[m')
 a1 = float(input('Primeiro termo: '))
 d = float(input('Razão: '))
 print(f'Os 10 primeiros termos são: ')
-for i in range(0, 10):
+i = -1
+while i <= 10:
+    i += 1
     a = a1 + i * d
-    if i < 9:
+    if i < 11:
         print(a, end=' -> ')
     else:
         print(a)
-
-
 
 
 
