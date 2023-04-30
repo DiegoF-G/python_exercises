@@ -4,12 +4,12 @@ d = float(input('Razão: '))
 n = int(input('Digite o número de termos a ser exibido a partir do primeiro termo: '))
 while n <= 0:
     n = int(input('Opção inválida! Digite novamente o número de termos a ser exibido a partir do primeiro termo: '))
-if n == 1:
-    print(f'O primerio termo é {a1}')
-else:
-    print(f'Os {n} primeiros termos são: ')
-    n1 = 1
-    while n1 != 0:
+n1 = 1
+while n1 != 0:
+    if n == 1:
+        print(f'O primerio termo é {a1}')
+    else:
+        print(f'Os {n} primeiros termos são: ')
         i = -1
         while i <= n - 2:
             i += 1
@@ -18,9 +18,13 @@ else:
                 print(a, end=' -> ')
             else:
                 print(a)
-        n1 = int(input('Deseja mostrar mais quantos termos a partir do último termo exibido (0  para encerrar)? '))
-        n += n1
-    print(f'Ao todo foram {n} termos exibidos da PA. PA finalizada.')
+    n1 = int(input('Deseja mostrar mais quantos termos a partir do último termo exibido (0  para encerrar)? '))
+    n += n1
+print(f'Ao todo foram {n} termos exibidos da PA. PA finalizada.')
+
+
+
+
 
 
 
