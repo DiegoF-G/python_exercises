@@ -7,7 +7,7 @@ if n > 0:
         print('-'*3, f'{j}ª Pessoa', '-'*3)
         nome = input('Nome: ').strip().title()
         idade = int(input('Idade: '))
-        sexo = input('Sexo (M/F): ').strip().upper()
+        sexo = input('Sexo (M/F): ').strip().upper()[0]
         somaIdade += idade
         if j == 1 and sexo == 'M':
             idadeMaiorM = idade
