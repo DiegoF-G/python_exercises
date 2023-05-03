@@ -15,19 +15,20 @@ while True:
     if soma % 2 == 0 and aJogador in 'pP':
         c += 1
         print(f'Parabéns! Você jogou {nJogador} e eu {nPc} e assim a soma deu {soma} que é par, portanto você ganhou!')
-        print('Vamos jogar mais uma vez...')
+        print('Vamos jogar mais uma vez...\n ')
     elif soma % 2 != 0 and aJogador in 'pP':
         print(f'Você perdeu! Você jogou {nJogador} e eu {nPc} e assim a soma deu {soma} que é ímpar.')
-        print(f'\033[1:35mGAME OVER!\033[m Você conseguiu {c} vitória(s) consecutiva(s).')
         break
     elif soma % 2 == 0 and aJogador in 'iIíÍ':
         print(f'Você perdeu! Você jogou {nJogador} e eu {nPc} e assim a soma deu {soma} que é par.')
-        print(f'\033[1:35mGAME OVER!\033[m Você conseguiu {c} vitória(s) consecutiva(s).')
         break
     elif soma % 2 != 0 and aJogador in 'iIíÍ':
         c += 1
         print(f'Parabéns! Você jogou {nJogador} e eu {nPc} e assim a soma deu {soma} que é ímpar, portanto você ganhou!')
-        print('Vamos jogar mais uma vez...')
+        print('Vamos jogar mais uma vez...\n ')
+print(f'\033[1:35mGAME OVER!\033[m Você conseguiu {c} vitória(s) consecutiva(s).')
+
+
 
 
 
