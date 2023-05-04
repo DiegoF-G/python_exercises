@@ -8,7 +8,9 @@ elif o == 2:
     print(f'{n} = {hex(n)[2:]} em hexadecimal')
 elif o == 3:
     print(f'{n} = {oct(n)[2:]} em octal')
-else: print('\033[1:31mOpção digitada inválida. Tente novamente.\033[m')
+else:
+    print('\033[1:31mOpção digitada inválida. Tente novamente.\033[m')
+
 
 
 
