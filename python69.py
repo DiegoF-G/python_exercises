@@ -1,5 +1,5 @@
 print('='*16)
-print('\033[1mBARATÃO STORE\033[m')
+print(' \033[1mBARATÃO STORE\033[m')
 print('='*16)
 s = caro = 0
 produtoBarato = ''
@@ -22,12 +22,13 @@ while True:
         break
     name = input('Nome do produto: ')
     price = float(input('Preço do produto: R$ '))
+print('-'*20)
 print(f'O valor total da compra foi de R${s}')
 print(f'Temos {caro} produto(s) custando mais de R$1000.00')
 print(f'O produto mais barato foi {produtoBarato} custando R${barato}')
 
 # print('='*16)
-# print('\033[1mBARATÃO STORE\033[m')
+# print(' \033[1mBARATÃO STORE\033[m')
 # print('='*16)
 # s = caro = barato = i = 0
 # produtoBarato = ''
@@ -48,6 +49,7 @@ print(f'O produto mais barato foi {produtoBarato} custando R${barato}')
 #         caro += 1
 #     if c == 'N':
 #         break
+# print('-'*20)
 # print(f'O valor total da compra foi de R${s}')
 # print(f'Temos {caro} produto(s) custando mais de R$1000.00')
 # print(f'O produto mais barato foi {produtoBarato} custando R${barato}')
