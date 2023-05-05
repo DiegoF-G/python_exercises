@@ -10,27 +10,18 @@ while True:
     if x >= 50:
         i = x // 50
         x -= i*50
-        if x == 0:
-            break
     if 20 <= x < 50:
         j = x // 20
         x -= j*20
-        if x == 0:
-            break
     if 10 <= x < 20:
         k = x // 10
         x -= k*10
-        if x == 0:
-            break
     if 5 <= x < 10:
         m = x // 5
         x -= m*5
-        if x == 0:
-            break
     if x < 5:
         n = x
-        if x == n:
-            break
+        break
 print('-'*37)
 if i > 0:
     print(f'Total de {i} cédulas de R$50,00')
