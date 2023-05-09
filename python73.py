@@ -9,7 +9,9 @@ while True:
         else:
             print(f'{t}')
     print(f'O menor e o maior valor sorteados, respectivamente, foram {min(rT)} e {max(rT)}')
-    c = input('Deseja sortear novos números (S/N)? ')
+    c = input('Deseja sortear novos números (S/N)? ').strip()[0]
+    while c not in 'sSnN':
+        c = input('Deseja sortear novos números (S/N)? ').strip()[0]
     if c in 'nN':
         break
 
