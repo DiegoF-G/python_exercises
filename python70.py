@@ -2,6 +2,8 @@ print('='*15, '\033[1:33mPY BANK\033[m', '='*15)
 x = int(input(' Valor do saque: R$ '))
 while x == 0:
     r = input('Deseja sair do saque (S/N)? ').strip().upper()[0]
+    while r not in 'sSnN':
+        r = input('Deseja sair do saque (S/N)? ').strip().upper()[0]
     if r == 'S':
         break
     x = int(input(' Digite novamente o valor do saque: R$ '))
@@ -33,7 +35,7 @@ if m > 0:
     print(f'Total de {m} cédulas de R$5,00')
 if n > 0:
     print(f'Total de {n} cédulas de R$1,00')
-print('\033[0:36mObrigado, volte sempre!\033[m')
+print('\033[0:36mPY BANK agradece, volte sempre!\033[m')
 
 # R$50, R$20, R$10 e R$1 são as notas nesse caixa eletrônico
 
