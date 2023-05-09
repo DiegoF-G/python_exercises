@@ -1,8 +1,8 @@
-p = 0
 while True:
     nT = (int(input('Digite o primeiro número inteiro: ')), int(input('Digite o segundo número inteiro: ')),
           int(input('Digite o terceiro número inteiro: ')), int(input('Digite o quarto número inteiro: ')),
           int(input('Digite o quinto número inteiro: ')))
+    p = 0
     for i in range(0, len(nT)):
         if nT[i] % 2 == 0:
             p += 1
