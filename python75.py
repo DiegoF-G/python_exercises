@@ -12,6 +12,7 @@ for i, l in enumerate(listagem):
     if i % 2 == 0:
         print(f'{l:.<30}', end=' ')
     else:
-        print('R$' + str(l))
+        print(f'R${l:.2f}')
+
 
 
