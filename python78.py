@@ -11,7 +11,7 @@ while True:
     if c in 'nN':
         break
 num.sort()
-print(f'A lista formada pelos valores digitados, em ordem crescente, foi: {num}')
+print(f'A lista formada pelos números digitados, em ordem crescente, foi: {num}')
 
 
 
