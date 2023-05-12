@@ -1,6 +1,7 @@
-# Não posso usar o método sort()
+# Não posso usar o método sort() e nem módulo. Solução apenas com python e outra com módulo padrão do python, respectiv.
+k = int(input('Quantos números você deseja adicionar na lista? '))
 num = []
-for i in range(0, 5):
+for i in range(0, k):
     n = float(input('Digite um número: '))
     if i == 0:
         num.append(n)
@@ -18,6 +19,15 @@ for i in range(0, 5):
             else:
                 j += 1
 print(f'Lista resultante dos números em ordem crescente: {num}')
+
+# from bisect import insort
+# k = int(input('Quantos números você deseja adicionar na lista? '))
+# num = []
+# for i in range(0, k):
+#     n = float(input('Digite um número: '))
+#     insort(num, n)
+#     print(f'Número adicionado na posição {num.index(n)}...')
+# print(f'Lista resultante dos números em ordem crescente: {num}')
 
 
 
