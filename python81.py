@@ -1,8 +1,7 @@
 from bisect import insort
 num = []
 while True:
-    n = int(input('Digite um número inteiro: '))
-    num.append(n)
+    num.append(int(input('Digite um número inteiro: ')))
     c = input('Deseja continuar digitando mais números (S/N)? ').strip()[0]
     while c not in 'sSnN':
         c = input('Deseja continuar digitando mais números (S/N)? ').strip()[0]
