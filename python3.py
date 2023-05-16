@@ -1,3 +1,3 @@
 x = input('Digite algo: ')
-print(f'Tipo do valor digitado: {type(x)} \n Só é espaços: {x.isspace()} \n É numérico: {x.isnumeric()} \n É alfabético: {x.isalpha()} \n É alfanumérico: {x.isalnum()} \n Está em maíusculo: {x.isupper()} \n Está em mínusculo: {x.islower()} \n Está capitalizado (começa com maiúsculo): {x.istitle()}')
+print(f'\nSó é espaços: {x.isspace()}\nÉ numérico: {x.isnumeric()}\nÉ alfabético: {x.isalpha()}\nÉ alfanumérico: {x.isalnum()}\nEstá em maíusculo: {x.isupper()}\nEstá em mínusculo: {x.islower()}\nEstá capitalizado (começa com maiúsculo): {x.istitle()}')
 
