@@ -4,8 +4,8 @@ pesos = list()
 while True:
     nome = input('Nome: ')
     peso = float(input('Peso:'))
-    t = (nomePeso.append(nome), nomePeso.append(peso), pessoasPesos.append(nomePeso[len(nomePeso)-2:]),
-         pesos.append(peso))
+    t = (nomePeso.append(nome), nomePeso.append(peso), pessoasPesos.append(nomePeso[:]), pesos.append(peso),
+         nomePeso.clear())
     c = input('Deseja continuar (S/N)? ').strip()[0]
     while c not in 'sSnN':
         c = input('Deseja continuar (S/N)? ').strip()[0]
@@ -19,7 +19,7 @@ for i, peso in enumerate(pesos):
     if peso == min(pesos):
         menosP.append(pessoasPesos[i][0])
 print(f'\nAo todo você cadastrou {len(pessoasPesos)} pessoa(s)')
-print(f'O maior peso foi {max(pesos)}kg. Peso de: {maisP}\nO menos peso foi {min(pesos)}kg. Peso de: {menosP}')
+print(f'O maior peso foi {max(pesos)}kg. Peso de: {maisP}\nO menor peso foi {min(pesos)}kg. Peso de: {menosP}')
 
 
 
