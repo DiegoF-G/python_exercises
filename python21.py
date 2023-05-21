@@ -25,3 +25,4 @@ print(f'Seu primeiro nome possui {len(nome.split()[0])} letras')
 
 
 
+
