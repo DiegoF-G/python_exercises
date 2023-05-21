@@ -11,7 +11,7 @@ while True:
         c = input('Deseja continuar digitando mais nomes e notas (S/N)? ').strip()[0]
     if c in 'nN':
         break
-t = (print('-='*35), print(f'No.{"Nome":^15}{"Média":^15}'))
+t = (print('-='*45), print(f'No.{"Nome":^15}{"Média":^15}'))
 for i in range(0, len(nomesNotas)):
     print(f'{i+1} {nomesNotas[i][0]:^15} {(nomesNotas[i][1][0] + nomesNotas[i][1][1]) / 2:^15}')
 while True:
