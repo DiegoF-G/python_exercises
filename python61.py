@@ -18,9 +18,10 @@ while n1 != 0:
                 print(a, end=' -> ')
             else:
                 print(a)
-    n1 = int(input('Deseja mostrar mais quantos termos a partir do último termo exibido (0  para encerrar)? '))
+    n1 = int(input('Deseja mostrar mais quantos termos (0  para encerrar)? '))
     n += n1
 print(f'Ao todo foram {n} termos exibidos da PA. PA finalizada.')
+
 
 
 

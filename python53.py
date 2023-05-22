@@ -1,6 +1,5 @@
 from datetime import date
-k = 0
-j = 0
+k = j = 0
 for i in range(1, 8):
     y = int(input(f'Qual o ano de nascimento da {i}ª pessoa? '))
     a = date.today().year - y
