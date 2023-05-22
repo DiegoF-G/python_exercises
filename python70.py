@@ -36,7 +36,6 @@ if m > 0:
 if n > 0:
     print(f'Total de {n} cédulas de R$1,00')
 print('\033[0:36mPY BANK agradece, volte sempre!\033[m')
-
 # R$50, R$20, R$10 e R$1 são as notas nesse caixa eletrônico
 
 

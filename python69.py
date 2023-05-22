@@ -26,7 +26,6 @@ print('-'*20)
 print(f'O valor total da compra foi de R${s}')
 print(f'Temos {caro} produto(s) custando mais de R$1000.00')
 print(f'O produto mais barato foi {produtoBarato} custando R${barato}')
-
 # print('='*16)
 # print(' \033[1mBARATÃO STORE\033[m')
 # print('='*16)
