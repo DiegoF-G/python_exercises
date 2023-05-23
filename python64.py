@@ -1,8 +1,7 @@
 x = float(input('Digite um número: '))
-maior = menor = x
-r = input('Quer continuar (Sim ou Não)? ').strip()[0]
-s = 0
+maior = menor = s = x
 c = 1
+r = input('Quer continuar (Sim ou Não)? ').strip()[0]
 while r not in 'Nn':
     x = float(input('Digite um número: '))
     s += x
@@ -12,7 +11,7 @@ while r not in 'Nn':
     if x < menor:
         menor = x
     r = input('Quer continuar (Sim ou Não)? ').strip()[0]
-print(f'Você digitou {c} números, entre eles a média é {s/c} o maior é {maior} e o menor é {menor}.')
+print(f'Você digitou {c} números. Entre eles a média é {s/c}, o maior é {maior} e o menor é {menor}.')
 
 
 
