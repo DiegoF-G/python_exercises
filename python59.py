@@ -13,8 +13,7 @@ else:
 # n = int(input('Digite um inteiro não-negativo: '))
 # while not n >= 0:
 #     n = int(input('Número inválido! Digite novamente um inteiro não-negativo: '))
-# n1 = n
-# n2 = n
+# n1 = n2 = n
 # if n > 0:
 #     while n1 > 1:
 #         n1 -= 1
