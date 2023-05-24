@@ -16,7 +16,7 @@ for i in range(0, len(nomesNotas)):
     print(f'{i+1} {nomesNotas[i][0]:^15} {(nomesNotas[i][1][0] + nomesNotas[i][1][1]) / 2:^15}')
 while True:
     a = int(input('\nMostrar notas de qual pessoa (digite o número correspondente dela, 0 para encerra)? '))
-    if 0 < a < len(nomesNotas)+1:
+    if 0 < a <= len(nomesNotas):
         print(f'\n{nomesNotas[a-1]}')
     elif a == 0:
         break
