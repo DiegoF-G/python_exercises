@@ -39,9 +39,14 @@ else:
 if len(acimaMedia) > 0:
     print('D) Lista de pessoas com idade acima da média:')
     for acima in acimaMedia:
-        print(f'{acima["nome"]:>20}; {acima["sexo"]}; {acima["idade"]}')
+        for k, v in acima.items():
+            if k != 'idade':
+                print(f'{k}: {v};', end=' ')
+            else:
+                print(f'{k}: {v}')
 else:
-    print(f'D) Todos cadastrados possuem a mesma idade, de {m} anos.')
+    print(f'D) Todos cadastrados possuem a mesma idade, de {m:.0f} anos.')
+
 
 
 
