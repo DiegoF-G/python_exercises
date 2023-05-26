@@ -43,9 +43,10 @@ if len(acimaMedia) > 0:
             if k != 'idade':
                 print(f'{k}: {v};', end=' ')
             else:
-                print(f'{k}: {v}')
+                print(f'{k}: {v} anos')
 else:
     print(f'D) Todos cadastrados possuem a mesma idade, de {m:.0f} anos.')
+
 
 
 
