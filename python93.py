@@ -4,7 +4,7 @@ grupo = list()
 s = 0
 while True:
     pessoa = dict()
-    pessoa['nome'] = input('Nome: ')
+    pessoa['nome'] = ' '.join(input('Nome: ').strip().title().split())
     pessoa['sexo'] = input('Sexo (M/F): ').strip()[0]
     while pessoa['sexo'] not in 'mMfF':
         print(f'{cores["vermelho"]}Dado inválido! Favor digite novamente.{cores["limpa"]}')

@@ -1,3 +1,4 @@
+print('\033[1mIdentificador de Palíndromo\033[m')
 f = input('Digite uma frase (sem acentuações ou "ç"): ').strip().upper()
 frase = ''.join(f.split())
 fraseI = frase[::-1]

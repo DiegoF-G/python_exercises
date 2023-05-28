@@ -5,14 +5,14 @@ nomeMaisVelho = nomeMaisVelha = ''
 if n > 0:
     for j in range(1, n+1):
         print('-'*3, f'{j}ª Pessoa', '-'*3)
-        nome = input('Nome: ').strip().title()
+        nome = ' '.join(input('Nome: ').strip().title().split())
         idade = int(input('Idade: '))
         sexo = input('Sexo (M/F): ').strip().upper()[0]
         somaIdade += idade
         if j == 1 and sexo == 'M':
             idadeMaiorM = idade
             nomeMaisVelho = nome
-        if j == 1 and sexo == 'F':
+        elif j == 1 and sexo == 'F':
             idadeMaiorF = idade
             nomeMaisVelha = nome
         elif idade > idadeMaiorM and sexo == 'M':
@@ -21,17 +21,18 @@ if n > 0:
         elif idade > idadeMaiorF and sexo == 'F':
             idadeMaiorF = idade
             nomeMaisVelha = nome
-        elif idade < 21 and sexo == 'M':
+        if idade < 21 and sexo == 'M':
             menorM += 1
-        elif idade < 21 and sexo == 'F':
+        if idade < 21 and sexo == 'F':
             menorF += 1
-    print(f'A idade média do grupo informado é de {somaIdade/n:.0f} anos.')
-    print(f'{nomeMaisVelho} é o mais velho do grupo, com {idadeMaiorM} anos')
-    print(f'{nomeMaisVelha} é a mais velha do grupo, com {idadeMaiorF} anos')
+    print('\nAnalisando o grupo informado, temos que:')
+    print(f'-A idade média do grupo informado é de {somaIdade/n:.0f} anos.')
+    print(f'-{nomeMaisVelho} é o mais velho do grupo, com {idadeMaiorM} anos.')
+    print(f'-{nomeMaisVelha} é a mais velha do grupo, com {idadeMaiorF} anos.')
     if menorM > 0:
-        print(f'Ao todo são {menorM} homem(ns) com menos de 21 anos.')
+        print(f'-Ao todo são {menorM} homem(ns) com menos de 21 anos.')
     if menorF > 0:
-        print(f'Ao todo são {menorF} mulher(es) com menos de 21 anos.')
+        print(f'-Ao todo são {menorF} mulher(es) com menos de 21 anos.')
 else:
     print('\033[0:31mNúmero de pessoas inválido\033[m')
 
