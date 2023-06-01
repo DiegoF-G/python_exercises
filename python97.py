@@ -1,3 +1,4 @@
+from time import sleep
 cores = {'limpa': '\033[m', 'vermelho': '\033[0:31m', 'brancoForte': '\033[1m'}
 
 
@@ -5,32 +6,42 @@ def contagem(c, f, p):
     if c <= f and p > 0:
         for i in range(c, f + 1, p):
             if p <= abs(i - f):
+                sleep(1)
                 print(f'{i} -> ', end='')
             else:
+                sleep(1)
                 print(i)
     elif c >= f and p > 0:
         for i in range(c, f - 1, -p):
             if p <= abs(i - f):
+                sleep(1)
                 print(f'{i} -> ', end='')
             else:
+                sleep(1)
                 print(i)
     elif c >= f and p < 0:
         for i in range(c, f - 1, p):
             if -p <= abs(i - f):
+                sleep(1)
                 print(f'{i} -> ', end='')
             else:
+                sleep(1)
                 print(i)
     elif c <= f and p == 0:
         for i in range(c, f + 1):
             if i != f:
+                sleep(1)
                 print(f'{i} -> ', end='')
             else:
+                sleep(1)
                 print(i)
     elif c > f and p == 0:
         for i in range(c, f - 1, -1):
             if i != f:
+                sleep(1)
                 print(f'{i} -> ', end='')
             else:
+                sleep(1)
                 print(i)
     else:
         print(f'{cores["vermelho"]}Contagem inválida!{cores["limpa"]}')
