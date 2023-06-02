@@ -27,7 +27,7 @@ def fatorial(n, show=False):
 
 
 testes = (print(fatorial(0, True)), print(fatorial(0)), print(fatorial(3, show=True)), print(fatorial(5)),
-          print(fatorial(-5)))
+          print(fatorial(-5)), help(fatorial))
 
 
 # def fatorial(n, show=False):
