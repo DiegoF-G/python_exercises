@@ -1,10 +1,10 @@
 def fatorial(n, show=False):
     """
     ->Cálculo do fatorial de um número inteiro nao negativo, definindo para 0 a imagem 1 (0! = 1).
-    :param n: inteiro não negativo que vai ser calculado seu respectivo fatorial
+    :param n: inteiro que vai ser calculado seu respectivo fatorial
     :param show: booleano que determina se é mostrado ou não detalhes do calculo do fatorial
     :return: inteiro que é o fatorial de n, uma string que mostra os detalhes do cálculo do fatorial de n ou mensagem
-    de parametro inválido
+    de parametro inválido para o cálculo do fatorial
     """
     if n >= 0:
         num = n
