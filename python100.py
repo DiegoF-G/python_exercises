@@ -8,7 +8,7 @@ def voto(b):
     y = date.today().year - b
     if 0 <= y < 16:
         return 'Voto NEGADO.'
-    elif 0 < 16 <= y <= 17 or y >= 60:
+    elif 16 <= y <= 17 or y >= 60:
         return 'Voto OPCIONAL.'
     elif y >= 18:
         return 'Voto OBRIGATÓRIO.'
