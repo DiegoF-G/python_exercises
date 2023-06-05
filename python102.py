@@ -8,7 +8,7 @@ def ficha(n='<desconhecido>', g=0):
     # or return instead print()
 
 
-testes = (ficha('  DieGo    Garcia ', 10), print(), ficha(11, 2), print(), ficha('AnA', 'Tres'), print(),
+testes = (ficha('  DieGo    garcia ', 10), print(), ficha(11, 2), print(), ficha('AnA', 'Tres'), print(),
           ficha())
 
 
