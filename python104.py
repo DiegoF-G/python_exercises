@@ -1,11 +1,11 @@
 def panorama(*n, sit=False):
     """
-    ->Função que pega notas (aceita um número arbritário delas) e determina quantas foram, a maior, a menor e a média,
+    ->Função que recebe notas (aceita um número arbritário delas) e determina quantas foram, a maior, a menor e a média,
       além de mostrar a situação como opcional.
-    :param n: tupla de floats, que são as notas
+    :param n: floats, que são as notas
     :param sit: booleano, opcional, que determina se é mostrado ou não a situação
-    :return: se a tupla for vazia retorna uma string informando que nenhuma nota foi digitada, se a tupla for não vazia
-             retorna um dicionário com todas informações sobre as notas
+    :return: se nenhuma nota for dada retorna uma string informando que nenhuma nota foi digitada, digitando alguma nota
+             retorna um dicionário com todas informações sobre a(s) nota(s)
     """
     if len(n) > 0:
         pan = dict()
