@@ -25,7 +25,7 @@ else:
 # from math import factorial
 # n = int(input('Digite um inteiro não-negativo: '))
 # f = factorial(n)
-# printO(f'`{n}! = f')
+# printO(f'{n}! = f')
 
 
 
