@@ -25,7 +25,7 @@ def panorama(*n, sit=False):
         return 'Nenhuma nota digitada.'
 
 
-testes = (print(panorama()), print(), print(panorama(1, 2, 5, 10)), print(), print(panorama(5, 5.2, sit=True)), print(),
+testes = (print(panorama()), print(), print(panorama(1, 2, 5, 10)), print(), print(panorama(5, 5.2)), print(),
           print(panorama(10, sit=True)), print(), print(panorama(10, 0, 5.5, sit=True)), print(),
           print(panorama(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, sit=True)), print(), print(panorama(sit=True)), print(),
           print(panorama(5, 3, sit=True)), help(panorama))
