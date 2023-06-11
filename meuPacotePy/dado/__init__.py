@@ -16,7 +16,7 @@ def leia_dinheiro(d):
 
 def leia_int(m='Digite um inteiro: '):
     """
-    ->Função que lê um inteiro se, e somente se, a string digitada pode ser convertida em apenas no tipo primitivo int.
+    ->Função que lê um inteiro se, e somente se, a string digitada pode ser convertida no tipo primitivo inteiro.
       No caso de não ser possível essa conversão, é printado uma string informando que o valor é inválido.
     :param m: string, que se espera ser uma mensagem solicitando qual o inteiro em questão
     :return: inteiro, convertido da string se possível a conversão
