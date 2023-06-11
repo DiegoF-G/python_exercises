@@ -75,9 +75,9 @@ def resumo(f=0.0, a=0.0, d=0.0, unidade='US$'):
 
 def leia_dinheiro(d):
     """
-    ->Função que valida ("por cima", é uma validação incompleta) e amarzena a entrada de dados monetários.
-    :param d: string que representa o float a ser convertido
-    :return: float que representa a quantia monetária inserida
+    ->Função que valida ("por cima", é uma validação incompleta) e amarzena a entrada de valores monetários.
+    :param d: string, que representa o float a ser convertido
+    :return: float, que representa a quantia monetária inserida
     """
     x = input(d)
     while x.isalpha() or x.isspace() or x == '':
