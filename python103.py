@@ -1,9 +1,9 @@
 def leia_int(m='Digite um inteiro: '):
     """
-    ->Função que lê um inteiro se, e somente se, a string digitada pode ser convertida em apenas no tipo primitivo inteiro.
+    ->Função que lê um inteiro se, e somente se, a string digitada pode ser convertida no tipo primitivo inteiro apenas.
       No caso de não ser possível uma conversão, é printado uma string informando que o valor é inválido.
-    :param m: uma string qualquer
-    :return: um inteiro obtido da string dada pelo parâmetro
+    :param m: string, que se espera ser uma mensagem solicitando qual o inteiro em questão
+    :return: inteiro, obtido da string quando a conversão é possível
     """
     while True:
         n = input(m)
