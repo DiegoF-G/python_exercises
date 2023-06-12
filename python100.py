@@ -1,8 +1,8 @@
 def voto(b):
     """
     ->A função voto() retorna sobre a obrigação de voto de um cidadão de acordo com as leis eleitorais em 2023 no Brasil.
-    :param b: Ano de nascimento do cidadão
-    :return: As strings: 'Voto NEGADO.', 'Voto OPCIONAL.' ou 'Voto OBRIGATÓRIO.'
+    :param b: inteiro, referente ao ano de nascimento do cidadão
+    :return: as strings: 'Voto NEGADO.', 'Voto OPCIONAL.' ou 'Voto OBRIGATÓRIO.'
     """
     from datetime import date
     y = date.today().year - b
