@@ -134,14 +134,15 @@ def linha(l=42, c='-'):
     :param c: string, sendo o caractér a ser colocado em linha na quanditade dada pelo parâmetro l
     :return: string
     """
-    return l*'-'
+    return l*c
 
 
-def cabecalho(txt):
+def cabecalho(txt, c=42):
     """
-    ->Função que fornece um cabeçalho com texto dado pelo parâmetro.
+    ->Função que fornece um cabeçalho com texto dado pelo parâmetro, alinhado por padrão em 42 caractéres.
     :param txt: string, sendo o texto a constar no cabeçalho
+    :param c: inteiro, sendo em quantos espaços o texto vai estar alinhado
     :return: string, sendo o cabeçalho completo ocupando 3 linhas
     """
-    t = (print(linha()), print(txt), print(linha()))
+    t = (print(linha()), print(txt.center(c)), print(linha()))
     return t
