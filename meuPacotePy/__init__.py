@@ -146,3 +146,16 @@ def cabecalho(txt, c=42):
     """
     t = (print(linha()), print(txt.center(c)), print(linha()))
     return t
+
+
+def menu(lista):
+    """
+    ->Função que printa um menu de acordo com os itens inseridos em seu parâmetro na forma de uma lista, em sequência.
+    :param lista: uma lista (array), onde cada entrada dele é um item do menu
+    :return: string, que corresponde a uma solicitação de qual opção (item do menu) o usuário deseja selecionar
+    """
+    cabecalho('MENU PRINCIPAL')
+    for i, item in enumerate(lista):
+        print(f'{i} - {item}')
+    opc = leia_int('Sua opção: ')
+    return opc
