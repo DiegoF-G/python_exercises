@@ -1,4 +1,4 @@
-# pasta usada como pacote (pack) referente aos exercícios 106 ao 110
+# pasta usada como pacote (pack) referente aos exercícios 106 ao 110 e 113
 
 
 def dobro(f=0.0, monetario=False, unidade='US$'):
@@ -156,6 +156,6 @@ def menu(lista):
     """
     cabecalho('MENU PRINCIPAL')
     for i, item in enumerate(lista):
-        print(f'{i} - {item}')
+        print(f'{i + 1} - {item}')
     opc = leia_int('Sua opção: ')
     return opc
