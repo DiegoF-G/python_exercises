@@ -53,3 +53,14 @@ def leia_float(m='Digite um número real: '):
             return 0
         else:
             return x
+
+
+def formatar_nome(nome):
+    """
+    ->Função que recebe nome (espera-se ser de uma pessoa) em forma de string e formata colocando letras iniciais
+      maiúsculas e removendo espaços desnecessários.
+    :param nome: string, sendo o nome de uma pessoa
+    :return: string, sendo o nome formatado
+    """
+    name = ' '.join(nome.strip().title().split())
+    return name

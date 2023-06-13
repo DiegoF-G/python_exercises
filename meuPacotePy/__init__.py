@@ -161,3 +161,84 @@ def menu(lista):
         print(f'\033[33m{i + 1}\033[m - \033[34m{item}\033[m')
     opc = leia_int('Sua opção: ')
     return opc
+
+
+def arquivo_existe(nome):
+    """
+    ->Função que verifica se um arquivo existe na pasta.
+    :param nome: string, como o nome do arquivo
+    :return: booleano, True para a presença do arquivo e False caso contrário
+    """
+    try:
+        a = open(nome, 'rt')
+        a.close()
+    except FileNotFoundError:
+        return False
+    else:
+        return True
+
+
+def criar_arquivo(nome):
+    """
+    ->Função que cria um arquivo com nome dado pelo parâmetro na pasta. Printa caso o arquivo seja criado ou não.
+    :param nome: string, como o nome do arquivo
+    :return: função sem retorno
+    """
+    try:
+        a = open(nome, 'wt+')
+        a.close()
+    except:
+        print('Houve um ERRO na criação do arquivo!')
+    else:
+        print(f'Arquivo {nome} criado com sucesso!')
+
+
+def ler_arquivo(nome):
+    """
+    ->Função que lê um arquivo e o exibe, printando se foi lido com sucesso ou não.
+    :param nome: string, como o nome do arquivo
+    :return: função sem retorno
+    """
+    try:
+        a = open(nome, 'rt')
+    except:
+        print('ERRO ao ler o arquivo!')
+    else:
+        print(a.read())
+    finally:
+        a.close()
+
+
+def formatar_nome(nome):
+    """
+    ->Função que recebe nome (espera-se ser de uma pessoa) em forma de string e formata colocando letras iniciais
+      maiúsculas e removendo espaços desnecessários.
+    :param nome: string, sendo o nome de uma pessoa
+    :return: string, sendo o nome formatado
+    """
+    name = ' '.join(nome.strip().title().split())
+    return name
+
+
+def cadastrar(arq, nome='desconhecido', idade=0):
+    """
+    ->Função que escreve no arquivo passado como parâmetro nome e idade de pessoas. Registra como "desconhecido"
+      caso não seja inserido o nome e como 0 caso não seja inserido idade. O nome é formatado de forma usual
+      (iniciais maiúsculas e sem "espaços desnecessários") e em idade só é permitido como um número inteiro.
+    :param arq: string, como o nome do arquivo
+    :param nome: string, como o nome de uma pessoa
+    :param idade: interio, sendo a idade da pessoa
+    :return: função sem retorno
+    """
+    try:
+        a = open(arq, 'at')
+    except:
+        print('Houve um ERRO na abertura do arquivo!')
+    else:
+        try:
+            a.write(f'{nome}\t\t{idade}\n')
+        except:
+            print('Houve um ERRO na de escrever os dados!')
+        else:
+            print(f'Novo registro de {nome} adicionado.')
+            a.close()
