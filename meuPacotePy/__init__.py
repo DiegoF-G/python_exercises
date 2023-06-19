@@ -129,7 +129,8 @@ def leia_float(m='Digite um número real: '):
 
 def linha(l=42, c='-'):
     """
-    ->Função que fornece uma linha de tamanho dado pelo primeiro parâmetro, o tamanho padrão são de 42 caractéres "-".
+    ->Função que fornece uma linha de caractéres "-" de tamanho dado pelo primeiro parâmetro,
+      o tamanho padrão são de 42 caractéres "-".
     :param l: inteiro, sendo o tamanho da linha
     :param c: string, sendo o caractér a ser colocado em linha na quanditade dada pelo parâmetro l
     :return: string
@@ -142,9 +143,9 @@ def cabecalho(txt, c=42):
     ->Função que fornece um cabeçalho com texto dado pelo parâmetro, alinhado por padrão em 42 caractéres.
     :param txt: string, sendo o texto a constar no cabeçalho
     :param c: inteiro, sendo em quantos espaços o texto vai estar alinhado
-    :return: sem retorno
+    :return: string, sendo o cabeçalho completo ocupando 3 linhas
     """
-    t = (print(linha()), print(txt.center(c)), print(linha()))
+    t = (print(linha(c)), print(txt.center(c)), print(linha(c)))
 
 
 def menu(lista):

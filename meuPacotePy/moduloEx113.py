@@ -23,7 +23,8 @@ def leia_int(m='Digite um inteiro: '):
 
 def linha(l=42, c='-'):
     """
-    ->Função que fornece uma linha de tamanho dado pelo primeiro parâmetro, o tamanho padrão são de 42 caractéres "-".
+    ->Função que fornece uma linha de caractéres "-" de tamanho dado pelo primeiro parâmetro,
+      o tamanho padrão são de 42 caractéres "-".
     :param l: inteiro, sendo o tamanho da linha
     :param c: string, sendo o caractér a ser colocado em linha na quanditade dada pelo parâmetro l
     :return: string
@@ -38,8 +39,7 @@ def cabecalho(txt, c=42):
     :param c: inteiro, sendo em quantos espaços o texto vai estar alinhado
     :return: string, sendo o cabeçalho completo ocupando 3 linhas
     """
-    t = (print(linha()), print(txt.center(c)), print(linha()))
-    return t
+    t = (print(linha(c)), print(txt.center(c)), print(linha(c)))
 
 
 def menu(lista):
@@ -116,10 +116,10 @@ def formatar_nome(nome):
 
 def cadastrar(arq, nome='desconhecido', idade=0):
     """
-    ->Função que escreve no arquivo passado como parâmetro nome e idade de pessoas. Registra como "desconhecido"
+    ->Função que escreve no arquivo txt passado como parâmetro nome e idade de pessoas. Registra como "desconhecido"
       caso não seja inserido o nome e como 0 caso não seja inserido idade. O nome é formatado de forma usual
       (iniciais maiúsculas e sem "espaços desnecessários") e em idade só é permitido como um número inteiro.
-    :param arq: string, como o nome do arquivo
+    :param arq: string, como o nome do arquivo txt
     :param nome: string, como o nome de uma pessoa
     :param idade: interio, sendo a idade da pessoa
     :return: função sem retorno
@@ -132,8 +132,7 @@ def cadastrar(arq, nome='desconhecido', idade=0):
         try:
             a.write(f'{nome}\t\t{idade}\n')
         except:
-            print('Houve um ERRO na de escrever os dados!')
+            print('Houve um ERRO na hora de escrever os dados!')
         else:
             print(f'Novo registro de {nome} adicionado.')
             a.close()
-
