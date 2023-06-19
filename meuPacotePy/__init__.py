@@ -142,10 +142,9 @@ def cabecalho(txt, c=42):
     ->Função que fornece um cabeçalho com texto dado pelo parâmetro, alinhado por padrão em 42 caractéres.
     :param txt: string, sendo o texto a constar no cabeçalho
     :param c: inteiro, sendo em quantos espaços o texto vai estar alinhado
-    :return: string, sendo o cabeçalho completo ocupando 3 linhas
+    :return: sem retorno
     """
     t = (print(linha()), print(txt.center(c)), print(linha()))
-    return t
 
 
 def menu(lista):
