@@ -16,6 +16,9 @@ r = 1
 for k, v in ranking:
     if v == ranking[r-2][1] and r > 1:
         r -= 1
+        print(f'{r}ªLugar {k}: {v}')
+        r += 1
+        continue
     print(f'{r}ªLugar {k}: {v}')
     r += 1
     sleep(1)
