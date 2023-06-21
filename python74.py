@@ -11,7 +11,7 @@ while True:
         print(f'O número 3 ocorreu primeiro na {nT.index(3)} posição.')
     else:
         print('O valor 3 não foi digitado.')
-    print(f'Ocorreram {p} número(s) pare(s).\n ')
+    print(f'Ocorreram {p} número(s) par(es).\n ')
     c = input('Deseja digitar novamente 5 inteiros (S/N)? ').strip()[0]
     while c not in 'sSnN':
         c = input('Deseja digitar novamente 5 inteiros (S/N)? ').strip()[0]
