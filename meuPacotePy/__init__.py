@@ -49,7 +49,7 @@ def diminuir(f=0.0, d=0.0, monetario=False, unidade='US$'):
 
 def moeda(f=0.0, m='US$'):
     """
-    ->Função que formata um número em forma monetária de acordo com a unidade monetário (dolár por padrão).
+    ->Função que formata um número em forma monetária conforme a unidade monetário (dolár por padrão).
     :param f: float que representa o número a ser formatado em forma monetária
     :param m: string referente a unidade monetária, por padrão é a string 'US$'
     :return: string que representa o número formatado em forma monetária
@@ -150,7 +150,7 @@ def cabecalho(txt, c=42):
 
 def menu(lista):
     """
-    ->Função que printa um menu de acordo com os itens inseridos em seu parâmetro na forma de uma lista, em sequência.
+    ->Função que printa um menu conforme os itens inseridos no seu parâmetro na forma de uma lista, em sequência.
       Além disso, solicita ao usuário digitar a opção desejada na forma de um inteiro correspondente ao item
       (índice dele) na lista.
     :param lista: uma lista (array), onde cada entrada dele é um item do menu desejado
@@ -222,8 +222,8 @@ def formatar_nome(nome):
 
 def cadastrar(arq, nome='desconhecido', idade=0):
     """
-    ->Função que escreve no arquivo passado como parâmetro nome e idade de pessoas. Registra como "desconhecido"
-      caso não seja inserido o nome e como 0 caso não seja inserido idade. O nome é formatado de forma usual
+    ->Função que escreve no arquivo passado como parâmetro nome e idade de pessoas. Registra como "desconhecido",
+      caso não seja inserido o nome, e como 0 caso não seja inserido idade. O nome é formatado de forma usual
       (iniciais maiúsculas e sem "espaços desnecessários") e em idade só é permitido como um número inteiro.
     :param arq: string, como o nome do arquivo
     :param nome: string, como o nome de uma pessoa
