@@ -28,7 +28,7 @@ teste2 = (print('TESTE 2'), print(apAluguel), print())
 meses = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
 despesa = [860, 490, 1010, 780, 900, 630, 590, 770, 620, 560, 840, 360]
 despesasAno = {meses[i]: despesa[i] for i in range(12)}
-teste3 = (print('TESTE 3'), print(despesasAno))
+teste3 = (print('TESTE 3'), print(despesasAno), print())
 
 # (4)Foi repassado uma lista de 20 estudantes e suas respectivas médias finais. Precisamos
 # selecionar estudantes que tenham média final maior ou igual a 9.0
@@ -39,3 +39,4 @@ nomesEstudantes = ['Enrico Monteiro', 'Luna Pereira', 'Anthony Silveira', 'Letí
                    'Beatriz Martins', 'João Vitor Azevedo', 'Stephany Rosa', 'Gustavo Henrique Lima']
 mediasEstudantes = [5.4, 4.1, 9.1, 5.3, 6.9, 3.1, 10.0, 5.0, 8.2, 5.5, 8.1, 7.4, 5.0, 3.7, 8.1, 6.2, 6.1, 5.6, 6.7, 8.2]
 bolsistas = {nome: media for nome, media in zip(nomesEstudantes, mediasEstudantes) if media >= 9.0}
+teste4 = (print('TESTE 4'), print(bolsistas))
