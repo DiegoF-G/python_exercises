@@ -304,3 +304,16 @@ def palavra_com_mais_de_5_letras_em_(frase: str = '') -> list:
 
 teste4 = (print('Teste 4'), print(palavra_com_mais_de_5_letras_em_('Aprender Python aqui na Alura é muito bom')),
           print(palavra_com_mais_de_5_letras_em_('TESTE??!!')), print(palavra_com_mais_de_5_letras_em_()))
+
+
+def lista_dobro(lista: list = None) -> list:
+    """
+    ->Função que recebe uma lista de números e devolve uma lista com os respectivos dobros.
+    :param lista: lista de floats ou inteiros
+    :return: lista com os respectivos dobros da lista dada como parâmetro ou a lista [0] caso não seja dado nennhum
+    parâmetro
+    """
+    if lista is None:
+        lista = [0]
+    lista2x = [x*2 for x in lista]
+    return lista2x
