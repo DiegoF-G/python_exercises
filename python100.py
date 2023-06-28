@@ -1,6 +1,6 @@
 def voto(b):
     """
-    ->A função voto() retorna sobre a obrigação de voto de um cidadão de acordo com as leis eleitorais em 2023 no Brasil.
+    ->A função voto retorna sobre a obrigação de voto de um cidadão de acordo com as leis eleitorais em 2023 no Brasil.
     :param b: inteiro, referente ao ano de nascimento do cidadão
     :return: as strings: 'Voto NEGADO.', 'Voto OPCIONAL.' ou 'Voto OBRIGATÓRIO.'
     """
@@ -12,8 +12,6 @@ def voto(b):
         return 'Voto OPCIONAL.'
     elif y >= 18:
         return 'Voto OBRIGATÓRIO.'
-    else:
-        return f'\033[0:31mDado Inválido.\033[m'
 
 
 anoNascimento = int(input('Digite o ano de nascimento: '))
