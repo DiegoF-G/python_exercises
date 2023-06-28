@@ -4,7 +4,7 @@ psq = []
 sqr = []
 while True:
     x = float(input('Digite um número: '))
-    if sqrt(x) - int(sqrt(x)) == 0:
+    if sqrt(x) - round(sqrt(x), 0) == 0:
         psq.append(x)
         sqr.append(sqrt(x))
     num.append(x)
