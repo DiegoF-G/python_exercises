@@ -1,5 +1,5 @@
 # Nesse arquivo vou explorar alguns métodos dos sets
-# Vale reparar que já usei o método add e as funções len e set no arquivo pythonExtraSets1.py, funcionalidades de sets
+# Vale reparar que já usei as funções add, len e set no arquivo pythonExtraSets1.py, funcionalidades de sets
 from meuPacotePy import cabecalho
 acessoriosPassat = {'Rodas de Liga', 'Travas Elétricas', 'Piloto Automático', 'Central Multimídia'}
 acessoriosCrossfox = {'Piloto Automático', 'Teto Panorâmico', '4 X 4', 'Central Multimídia'}
@@ -31,3 +31,4 @@ cabecalho('É possível verificar se todos elementos de um set também são elem
 acessoriosUp = {'Controle de Estabilidade', 'Travas Elétricas', 'Rodas de Liga'}
 print(f'Suponha que os acessórios do Up TSI seja: {acessoriosUp}')
 print(f'Os acessórios do Up TSI também estão no Jetta? {set.issubset(acessoriosUp, acessoriosJetta)}')
+print()

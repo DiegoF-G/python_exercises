@@ -1,7 +1,6 @@
-# Set é uma coleção de dados (também uma classe) não-ordenada e que possui todos seus elementos distintos dois a dois.
+# Set é uma coleção de dados não ordenada que possui todos os seus elementos distintos dois a dois.
 # Vale observar que os sets são totalmente análogos aos conjuntos na Matemática, uma versão "Python" deles.
-# Nesse arquivo explorei algumas de suas características.
-
+# Nesse arquivo explorei algumas das suas características.
 from meuPacotePy import cabecalho
 listaCarros = ['Jetta Variant', 'Passat', 'Crossfox', 'Dodge Jorney', 'Passat']
 setCarros = set(listaCarros)
@@ -19,8 +18,13 @@ print(onix)
 onix.add('1.0 turbo')
 print(onix)
 
-cabecalho('Sets não são enumeráveis (não são indexados), diferente do que pode ser um conjunto na Matemática', 105)
+cabecalho('É possível realizar uma especificação em um objeto set, para o "frozenset", que são sets imutáveis', 105)
+onix = frozenset(onix)
 try:
-    print(setCarros[0])
-finally:
-    raise TypeError('Ops! Não sei onde é o endereço 0 pois isso é um set!')
+    onix.add('1.0 aspirado')
+except AttributeError:
+    print('\033[0:31mFrozensets são imutáveis! Não é realizar essa adição adicionar!\033[m')
+
+cabecalho('Sets não são enumeráveis (não são indexados), diferente do que pode ser um conjunto na Matemática', 105)
+raise TypeError('Ops! Não sei onde é o endereço 0 pois isso é um set!')
+print(setCarros[0])
