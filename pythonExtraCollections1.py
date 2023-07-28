@@ -6,7 +6,7 @@ frase = "Meu nome é Diego e gosto de nome e gosto de cachorros de SP"
 # Dicionário padrão (default dict) usado para verificar a frequência das palavras numa frase (string transformada em lista)
 aparicoes = defaultdict(int)
 for palavra in frase.split():
-    aparicoes[palavra] += 1  # em vez de usar aparicoes.get(palavra, 0), devido ao defaultdict.
+    aparicoes[palavra] += 1  # simplificando, em vez de usar aparicoes.get(palavra, 0), graças ao defaultdict.
 
 print(aparicoes)
 print(type(aparicoes))
