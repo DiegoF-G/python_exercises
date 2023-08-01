@@ -23,7 +23,7 @@ onix = frozenset(onix)
 try:
     onix.add('1.0 aspirado')
 except AttributeError:
-    print('\033[0:31mFrozensets são imutáveis! Não é realizar essa adição adicionar!\033[m')
+    print('\033[0:31mFrozensets são imutáveis! Não é possível modifica-los!\033[m')
 
 cabecalho('Sets não são enumeráveis (não são indexados), diferente do que pode ser um conjunto na Matemática', 105)
 raise TypeError('Ops! Não sei onde é o endereço 0 pois isso é um set!')
