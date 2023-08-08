@@ -69,9 +69,3 @@ while True:
         r = input('Deseja realizar outra contagem (S/N)? ').strip()[0]
     if r in 'nN':
         break
-
-
-
-
-
-

@@ -14,20 +14,5 @@ def voto(b):
         return 'Voto OBRIGATÓRIO.'
 
 
-anoNascimento = int(input('Digite o ano de nascimento: '))
-print(voto(anoNascimento))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ano_nascimento = int(input('Digite o ano de nascimento: '))
+print(voto(ano_nascimento))

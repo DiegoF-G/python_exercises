@@ -10,11 +10,3 @@ def informar_maior(*x):
 
 testes = (informar_maior(1, 2, 3, 5.5, 0.2), print(), informar_maior(0), print(),
           informar_maior(2, 22, 222, 222.001, 222.0005, 0), print(), informar_maior())
-
-
-
-
-
-
-
-

@@ -10,9 +10,3 @@ def ficha(n='<desconhecido(a)>', g=0):
 
 testes = (ficha('  DieGo    garcia ', 10), print(), ficha(11, 2), print(), ficha('AnA', 'Tres'), print(),
           ficha())
-
-
-
-
-
-

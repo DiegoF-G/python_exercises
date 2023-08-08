@@ -16,7 +16,6 @@ def soma_par(numeros):
     return s
 
 
-listaNumeros = sortear(int(input('Quantos números você deseja sortear, cada um entre 1 a 100? ')))
-print(f'\nOs {len(listaNumeros)} números sorteados foram: {str(listaNumeros).replace("[", "").replace("]", "")}')
-print(f'A soma de todos os pares foi {soma_par(listaNumeros)}.')
-
+lista_numeros = sortear(int(input('Quantos números você deseja sortear, cada um entre 1 a 100? ')))
+print(f'\nOs {len(lista_numeros)} números sorteados foram: {str(lista_numeros).replace("[", "").replace("]", "")}')
+print(f'A soma de todos os pares foi {soma_par(lista_numeros)}.')
