@@ -18,6 +18,3 @@ while True:
     else:
         ajuda(comando)
 titulo('Obrigado e volte sempre!', cores['fundoVermelho'])
-
-
-
