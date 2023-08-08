@@ -33,11 +33,5 @@ elif 3 < t <= 5 and un == n:
     print(f'\033[1:35mVocê acertou! Com {t} tentativas.\033[m')
 else:
     print(f'\033[1:35mVocê perdeu! O número pensado por mim era {n}.\033[m')
+
 # Qual a melhor estratégia para vencer esse jogo? Eu gosto sempre de apostar no 5 hehe
-
-
-
-
-
-
-

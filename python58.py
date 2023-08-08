@@ -58,4 +58,3 @@ Opçôes:
 Digite a opção desejada com esses números: 
 '''))
 print('Calculadora encerrada! Obrigado(a) e volte sempre!')
-

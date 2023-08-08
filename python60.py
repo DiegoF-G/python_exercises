@@ -10,6 +10,3 @@ while i <= 8:
         print(a, end=' -> ')
     else:
         print(a)
-
-
-

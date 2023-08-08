@@ -21,13 +21,3 @@ while n1 != 0:
     n1 = int(input('Deseja mostrar mais quantos termos (0  para encerrar)? '))
     n += n1
 print(f'Ao todo foram {n} termos exibidos da PA. PA finalizada.')
-
-
-
-
-
-
-
-
-
-

@@ -9,6 +9,7 @@ if n > 0:
     print(f'{n1}! = {n}')
 else:
     print('0! = 1')
+
 # Outra solução:
 # n = int(input('Digite um inteiro não-negativo: '))
 # while not n >= 0:
@@ -26,13 +27,3 @@ else:
 # n = int(input('Digite um inteiro não-negativo: '))
 # f = factorial(n)
 # printO(f'{n}! = f')
-
-
-
-
-
-
-
-
-
-
