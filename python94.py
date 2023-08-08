@@ -51,9 +51,3 @@ while True:
             print(f' => Na {k}, fez {v} gol(s).')
         elif k == 'Total':
             print(f'Foi um total de {v} gol(s).\n')
-
-
-
-
-
-

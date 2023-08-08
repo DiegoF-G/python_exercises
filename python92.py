@@ -14,5 +14,3 @@ for k, v in jogador.items():
         print(f'=> Na {k}, fez {v} gol(s).')
     else:
         print(f'Foi um {k} de {v} gol(s).')
-
-

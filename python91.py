@@ -26,9 +26,5 @@ for cidadao in cidadoes:
     print('=-'*30)
     for k, v in cidadao.items():
         print(f'{k} {v}')
+
 # suponha apenas a condição de 35 anos de trabalho para se aposentar (kkkk)
-
-
-
-
-

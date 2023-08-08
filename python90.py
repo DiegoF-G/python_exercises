@@ -22,6 +22,7 @@ for k, v in ranking:
     print(f'{r}ªLugar {k}: {v}')
     r += 1
     sleep(1)
+
 # Usando a funcionalidade itemgetter, do modulo padrao operator, no parametro key do sorted em vez da função lambda:
 # from random import randint
 # from time import sleep
@@ -45,8 +46,3 @@ for k, v in ranking:
 #     print(f'{r}ªLugar {k}: {v}')
 #     r += 1
 #     sleep(1)
-
-
-
-
-
