@@ -1,7 +1,6 @@
 """Nesse arquivo vou explorar as estruturas do List e Dict Comprehension, sendo uma ferramenta do Py para criar listas
    de maneira mais prática e concisa a partir de outras listas.
-   Também vou utilizar a função built-in zip para criar listas de tuplas, muito útil para iterações.
-"""
+   Também vou utilizar a função built-in zip para criar listas de tuplas, muito útil para iterações."""
 
 
 # (1)Função que recebe uma lista de floats e devolve uma lista com os respectivos dobros

@@ -1,5 +1,6 @@
-# Nesse arquivo vou explorar o uso da função built-in map, que recebe uma lista e aplica em cada entrada dela outra
-# função que pode ser anônima (função lambda) ou outra definida breviamente.
+"""Nesse arquivo vou explorar o uso da função built-in map, que recebe uma lista e aplica em cada entrada dela outra
+   função que pode ser anônima (função lambda) ou outra definida breviamente."""
+
 
 # (1)Função que recebe uma lista de números e retorna uma lista do triplo dos respectivos números
 def lista_triplo(lista: list = None) -> list:
