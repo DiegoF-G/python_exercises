@@ -1,5 +1,5 @@
 """Nesse arquivo vou explorar alguns métodos dos sets.
-   Vale reparar que já usei as funções add, len e set no arquivo pythonExtraSets1.py, funcionalidades de sets."""
+   Vale reparar que já usei as funções add, len e set no arquivo python_extra_sets1.py, funcionalidades de sets."""
 from meu_pacote_py import cabecalho
 
 acessorios_passat = {'Rodas de Liga', 'Travas Elétricas', 'Piloto Automático', 'Central Multimídia'}
