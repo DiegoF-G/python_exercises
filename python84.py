@@ -7,6 +7,3 @@ for i in range(0, 10):
     else:
         insort(num[1], n)
 t = (print(f'\nOs números pares digitados foram: {num[0]}'), print(f'Os números ímpares digitados foram: {num[1]}'))
-
-
-

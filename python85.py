@@ -15,18 +15,3 @@ for i in range(0, axi[0]):
         print(' '*7, matrix[i])
 if axi[0] == axi[1] and axi[0] > 0:
     print(f'\033[1:34mDeterminante:\033[m {det(matrix)}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
