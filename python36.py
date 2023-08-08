@@ -10,7 +10,3 @@ elif o == 3:
     print(f'{n} = {oct(n)[2:]} em octal')
 else:
     print('\033[1:31mOpção digitada inválida. Tente novamente.\033[m')
-
-
-
-

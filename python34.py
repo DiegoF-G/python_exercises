@@ -6,6 +6,3 @@ if n1 < n2 + n3 and n2 < n1 + n3 and n3 < n2 + n1:
     print('Os segmentos de reta mencionados \033[0:32mPODEM FORMAR\033[m um triângulo!')
 else:
     print('Os segmentos de reta mencionados \033[0:31mNÃO PODEM FORMAR\033[m um triângulo!')
-
-
-
