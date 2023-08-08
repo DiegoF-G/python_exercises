@@ -49,7 +49,7 @@ def diminuir(f=0.0, d=0.0, monetario=False, unidade='US$'):
 
 def moeda(f=0.0, m='US$'):
     """
-    ->Função que formata um número em forma monetária de acordo com a unidade monetário (dolár por padrão).
+    ->Função que formata um número em forma monetária segundo a unidade monetário (dolár por padrão).
     :param f: float que representa o número a ser formatado em forma monetária
     :param m: string referente a unidade monetária, por padrão é a string 'US$'
     :return: string que representa o número formatado em forma monetária
