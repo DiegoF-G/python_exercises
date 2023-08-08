@@ -44,7 +44,7 @@ def cabecalho(txt, c=42):
 
 def menu(lista):
     """
-    ->Função que printa um menu de acordo com os itens inseridos em seu parâmetro na forma de uma lista, em sequência.
+    ->Função que printa um menu segundo os itens inseridos no seu parâmetro na forma de uma lista, em sequência.
       Além disso, solicita ao usuário digitar a opção desejada na forma de um inteiro correspondente ao item
       (índice dele) na lista.
     :param lista: uma lista (array), onde cada entrada dele é um item do menu desejado
@@ -117,7 +117,7 @@ def formatar_nome(nome):
 def cadastrar(arq, nome='desconhecido', idade=0):
     """
     ->Função que escreve no arquivo txt passado como parâmetro nome e idade de pessoas. Registra como "desconhecido"
-      caso não seja inserido o nome e como 0 caso não seja inserido idade. O nome é formatado de forma usual
+      caso não seja inserido o nome e como 0 caso não seja inserido a idade. O nome é formatado de forma usual
       (iniciais maiúsculas e sem "espaços desnecessários") e em idade só é permitido como um número inteiro.
     :param arq: string, como o nome do arquivo txt
     :param nome: string, como o nome de uma pessoa
