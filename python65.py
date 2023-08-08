@@ -6,4 +6,3 @@ while True:
         break
     s += f
     c += 1
-

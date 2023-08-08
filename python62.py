@@ -13,31 +13,18 @@ elif n == 4:
 else:
     a1 = 0
     a2 = 1
-    aAnteAnterior = a2 + a1  # a3
-    aAnterior = aAnteAnterior + a2  # a4
+    a_ante_anterior = a2 + a1  # a3
+    a_anterior = a_ante_anterior + a2  # a4
     print('0 -> 1 -> 1 -> 2', end=' -> ')
     c = 0
     while c < n - 4:
         if c < n - 5:
             c += 1
-            aSeguinte = aAnterior + aAnteAnterior
-            print(aSeguinte, end=' -> ')
-            aAnteAnterior = aAnterior
-            aAnterior = aSeguinte
+            a_seguinte = a_anterior + a_ante_anterior
+            print(a_seguinte, end=' -> ')
+            a_ante_anterior = a_anterior
+            a_anterior = a_seguinte
         else:
             c += 1
-            aSeguinte = aAnterior + aAnteAnterior
-            print(aSeguinte)
-
-
-
-
-
-
-
-
-
-
-
-
-
+            a_seguinte = a_anterior + a_ante_anterior
+            print(a_seguinte)

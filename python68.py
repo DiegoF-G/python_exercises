@@ -17,7 +17,3 @@ while True:
     if c == 'N':
         break
 print(f'Total de pessoas com mais de 18 anos: {i}\nTotal de homens: {j}\nTotal de mulheres com menos de 20 anos: {k}')
-
-
-
-

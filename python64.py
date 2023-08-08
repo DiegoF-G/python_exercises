@@ -12,10 +12,3 @@ while r not in 'Nn':
         menor = x
     r = input('Quer continuar (Sim ou Não)? ').strip()[0]
 print(f'Você digitou {c} números. Entre eles a média é {s/c}, o maior é {maior} e o menor é {menor}.')
-
-
-
-
-
-
-
