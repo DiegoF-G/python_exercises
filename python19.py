@@ -7,5 +7,3 @@ a5 = input('Quinto aluno: ')
 lista = [a1, a2, a3, a4, a5]
 shuffle(lista)
 print(f'A ordem de apresentação será: {lista}')
-
-

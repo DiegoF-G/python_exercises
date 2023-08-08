@@ -4,4 +4,3 @@ pygame.mixer.music.load() # insira no argumento o nome do arquivo mp3 com a exte
 pygame.mixer.music.play()
 input()
 pygame.event.wait()
-

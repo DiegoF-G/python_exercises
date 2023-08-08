@@ -7,7 +7,3 @@ a5 = input('Quinto aluno: ')
 lista = [a1, a2, a3, a4, a5]
 escolhido = choice(lista)
 print(f'O aluno escolhido foi: {escolhido}')
-
-
-
-
