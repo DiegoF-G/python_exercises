@@ -1,10 +1,10 @@
-# Set é uma coleção de dados não ordenada que possui todos os seus elementos distintos dois a dois.
-# Vale observar que os sets são totalmente análogos aos conjuntos na Matemática, uma versão "Python" deles.
-# Nesse arquivo explorei algumas das suas características.
+"""Set é uma coleção de dados não ordenada que possui todos os seus elementos distintos dois a dois.
+   Vale observar que os sets são totalmente análogos aos conjuntos na Matemática, uma versão "Python" deles.
+   Nesse arquivo explorei algumas das suas características."""
 from meu_pacote_py import cabecalho
+
 listaCarros = ['Jetta Variant', 'Passat', 'Crossfox', 'Dodge Jorney', 'Passat']
 setCarros = set(listaCarros)
-
 cabecalho('Temos a seguinte lista e set, respectivamente:', 50)
 listaSet = (print(listaCarros), print(setCarros))
 
