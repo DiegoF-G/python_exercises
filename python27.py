@@ -12,15 +12,3 @@ if nu == n:
     print(f'{n} é o número que eu pensei! Parabens, seu Alakazam!')
 else:
     print(f'Que azar, errou! O número que eu pensei era {n}')
-
-
-
-
-
-
-
-
-
-
-
-
