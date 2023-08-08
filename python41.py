@@ -19,7 +19,7 @@ if n1 < n2 + n3 and n2 < n1 + n3 and n3 < n2 + n1:
         print('\033[1macutângulo!\033[m')
 else:
     print('Os segmentos de reta mencionados \033[0:31mNÃO PODEM FORMAR\033[m um triângulo!')
-# a classificação referente a ângulo, acutângulo obtusângulo retângulo,
-# é consequência de uma manipulação matemática da lei dos cossenos!
 
-
+"""a classificação referente a ângulo, acutângulo obtusângulo retângulo, é consequência de uma manipulação matemática 
+   da lei dos cossenos!
+"""

@@ -7,4 +7,3 @@ for c in range(10, 0, -1):
     print(emoji.emojize('🧨'))
 sleep(1)
 print('\033[1mBOOOOMMM!\033[m')
-

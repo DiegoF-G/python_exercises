@@ -12,5 +12,3 @@ elif y <= 25:
     print(f'O(a) atleta tem {y} anos\nClassificação: Sênior')
 else:
     print(f'O(a) atleta tem {y} anos\nClassificação: Master')
-
-
