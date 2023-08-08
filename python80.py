@@ -23,6 +23,3 @@ if len(sqr) > 0:
 else:
     print('Nenhum quadrado perfeito foi encontrado na lista.')
 print('O número da besta foi encontrado na lista!' if 666 in num else 'O número da besta não foi encontrado na lista.')
-
-
-

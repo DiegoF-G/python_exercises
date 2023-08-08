@@ -11,7 +11,3 @@ print(f'\nO menor deles é {min(num)} na(s) posição(ões)', end=' ')
 for i, n in enumerate(num):
     if n == min(num):
         print(i, end=' ')
-
-
-
-

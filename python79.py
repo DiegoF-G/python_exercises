@@ -1,4 +1,4 @@
-# Não posso usar o método sort() e nem módulo. Solução apenas com python e outra com módulo padrão do python, respectiv.
+# Não posso usar o método sort() e nem algum módulo. Solução apenas com Python e outra com módulo bisect, respectiv.
 k = int(input('Quantos números você deseja adicionar na lista? '))
 num = []
 for i in range(0, k):
@@ -28,19 +28,3 @@ print(f'Lista resultante dos números em ordem crescente: {num}')
 #     insort(num, n)
 #     print(f'Número adicionado na posição {num.index(n)}...')
 # print(f'Lista resultante dos números em ordem crescente: {num}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

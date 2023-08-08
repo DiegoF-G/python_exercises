@@ -16,6 +16,3 @@ for n in num:
         insort(impar, n)
 t = (print(f'\nLista resultante dos inteiros digitados: {num}'), print(f'Lista dos pares digitados: {par}'),
      print(f'Lista dos ímpares digitados: {impar}'))
-
-
-

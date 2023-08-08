@@ -13,5 +13,3 @@ if len(p) == 0:
     print('Expressão válida!')
 else:
     print('Expressão inválida!')
-
-

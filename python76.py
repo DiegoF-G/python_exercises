@@ -9,6 +9,3 @@ for palavra in palavras:
     for letra in palavra:
         if letra in vogais:
             print(f'"{letra.lower()}"', end=' ')
-
-
-

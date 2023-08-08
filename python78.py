@@ -12,8 +12,3 @@ while True:
         break
 num.sort()
 print(f'A lista formada pelos números digitados, em ordem crescente, foi: {num}')
-
-
-
-
-
