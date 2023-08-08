@@ -4,5 +4,3 @@ if s <= 1250:
 else:
     sa = s*1.10
 print(f'Quem ganhava R${s} passa a ganhar R${sa:.2f} agora')
-
-
