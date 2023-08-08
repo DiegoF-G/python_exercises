@@ -1,4 +1,4 @@
-from meuPacotePy import moduloEx113 as Ex113
+from meu_pacote_py import modulo_ex113 as Ex113
 arq = 'cursoemvideo.txt'
 if not Ex113.arquivo_existe(arq):
     Ex113.criar_arquivo(arq)

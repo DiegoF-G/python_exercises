@@ -1,6 +1,6 @@
 # Nesse arquivo vou explorar alguns métodos dos sets
 # Vale reparar que já usei as funções add, len e set no arquivo pythonExtraSets1.py, funcionalidades de sets
-from meuPacotePy import cabecalho
+from meu_pacote_py import cabecalho
 acessoriosPassat = {'Rodas de Liga', 'Travas Elétricas', 'Piloto Automático', 'Central Multimídia'}
 acessoriosCrossfox = {'Piloto Automático', 'Teto Panorâmico', '4 X 4', 'Central Multimídia'}
 acessoriosJetta = {'Controle de Estabilidade', 'Câmbio Automático', 'Travas Elétricas', 'Rodas de Liga'}
