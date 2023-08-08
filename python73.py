@@ -1,14 +1,14 @@
 from random import randint
 while True:
-    rT = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
-    for i, t in enumerate(rT):
+    r = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
+    for i, t in enumerate(r):
         if i == 0:
             print(f'Os números inteiros positivos sorteados foram: {t}', end=', ')
-        elif i < len(rT) - 1:
+        elif i < len(r) - 1:
             print(f'{t}', end=', ')
         else:
             print(f'{t}')
-    print(f'O menor e o maior valor sorteados, respectivamente, foram {min(rT)} e {max(rT)}')
+    print(f'O menor e o maior valor sorteados, respectivamente, foram {min(r)} e {max(r)}')
     c = input('Deseja sortear novos números (S/N)? ').strip()[0]
     while c not in 'sSnN':
         c = input('Deseja sortear novos números (S/N)? ').strip()[0]
@@ -16,24 +16,17 @@ while True:
         break
 
 # from random import randint
-# rT = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
-# menor = maior = rT[0]
-# for i, t in enumerate(rT):
+# r = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
+# menor = maior = r[0]
+# for i, t in enumerate(r):
 #     if i == 0:
 #         print(f'Os números inteiros positivos sorteados foram: {t}', end=', ')
-#     elif i < len(rT) - 1:
+#     elif i < len(r) - 1:
 #        print(f'{t}', end=', ')
 #     else:
 #        print(f'{t}')
-#     if rT[i] > maior:
-#         maior = rT[i]
-#     elif rT[i] < menor:
-#         menor = rT[i]
+#     if r[i] > maior:
+#         maior = r[i]
+#     elif r[i] < menor:
+#         menor = r[i]
 # print(f'O menor e o maior valor sorteados, respectivamente, foram {menor} e {maior}')
-
-
-
-
-
-
-
