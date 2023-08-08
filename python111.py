@@ -40,4 +40,3 @@ def leia_float(m='Digite um número real: '):
 
 
 testes = (print(leia_int()), print(leia_float()))
-
