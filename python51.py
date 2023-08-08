@@ -14,5 +14,3 @@ if c == 2:
     print(f'{n} é \033[1mprimo\033[m!')
 else:
     print(f'{n} é um \033[1mnúmero composto\033[m.')
-
-

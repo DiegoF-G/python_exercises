@@ -8,11 +8,3 @@ for i in range(1, 8):
     else:
         j += 1
 print(f'Ao todo tivemos {k} maiores de idade e {j} menores de idade.')
-
-
-
-
-
-
-
-

@@ -7,10 +7,3 @@ for i in range(0, n + 1):
         c += 1
         s += i
 print(f'A soma dos {c} números ímpares e múltiplos de 3 de 0 a {n} é: {s}')
-
-
-
-
-
-
-
