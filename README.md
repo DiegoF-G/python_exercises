@@ -1,4 +1,4 @@
-# python_exercises
+# python-exercises
 >Repository status: Finish, but can be update
 
 Only my python training, my playground :) From a python course of [Curso em Video](https://www.cursoemvideo.com/curso/python-3-mundo-3/).
