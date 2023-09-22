@@ -13,7 +13,7 @@ print(type(aparicoes))
 
 print()
 
-# Outra forma de contar numa lista pela classe "Counter" do pacote "collections"
+# Outra forma de contar numa sequência pela classe "Counter" do pacote "collections"
 aparicoes = Counter(frase.split())
 print(aparicoes)
 print(type(aparicoes))
